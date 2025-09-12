@@ -19,7 +19,7 @@ stdx=std(x);
 stdy=std(y);
 stdz=std(z);
 
-dataenu=load("ENU.txt");    %导入enu坐标
+dataenu=load("enu.txt");    %导入enu坐标
 e=dataenu(:,3);
 n=dataenu(:,4);
 u=dataenu(:,5);
@@ -130,4 +130,5 @@ title("各历元验后单位权中误差");
 xlabel("历元数");
 ylabel("验后单位权中误差");
 legend("验后单位权中误差");
+
 
